@@ -1,0 +1,20 @@
+{
+  "name": "ProjectAdmin",
+  "version": "0.0.1",
+  "description": "Project implementation of Knetik Admin",
+  "authors": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "KnAdminCore": "git@bitbucket.org:knetikmedia/knetik-angular-admin.git#integration"
+  },
+  "resolutions": {
+    "angular": "1.5.6"
+  }
+}
