@@ -12,7 +12,7 @@
     "tests"
   ],
   "dependencies": {
-    "KnAdminCore": "git@bitbucket.org:knetikmedia/knetik-angular-admin.git#integration"
+    "KnAdminCore": "git@github.com:knetikmedia/KnAdmin.git#master"
   },
   "resolutions": {
     "angular": "1.5.6"
