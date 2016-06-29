@@ -209,41 +209,5 @@
                     state: 'inventory',
                     icon: 'fa fa-briefcase'
                 }]
-        },{
-            name: 'Fanclash Management',
-            icon: 'fa fa-futbol-o',
-            sort: 13,
-            items: [{
-                state: 'fanclashControlsEdit',
-                icon: 'fa fa-futbol-o'
-            }, {
-                state: 'monthReports',
-                icon: 'fa fa-users'
-            }]
-        },{
-            name: 'HipSync Management',
-            icon: 'fa fa-male',
-            sort: 14,
-            items: [{
-                state: 'appDashboardsList',
-                icon: 'fa fa-sort-amount-desc'
-            }]
-        },{
-            name: 'Intel Management',
-            icon: 'fa fa-italic',
-            sort: 15,
-            items: [{
-                state: 'partnerShowcaseList',
-                icon: 'fa fa-object-group'
-            }, {
-                state: 'partnerShowcaseHomepage',
-                icon: 'fa fa-home'
-            }, {
-                state: 'drawingsList',
-                icon: 'fa fa-trophy'
-            }, {
-                state: 'intelOrderList',
-                icon: 'fa fa-trophy'
-            }]
         }]);
 })();
