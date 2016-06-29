@@ -1,6 +1,6 @@
 {
-    "name": "knetikAngularAdmin",
-    "description": "knetikAngularAdmin Project Generated from HotTowel Angular",
+    "name": "ProjectKnAdmin",
+    "description": "Core implementation of Knetik's Admin",
     "version": "0.0.0",
     "scripts": {
         "init": "npm install",
