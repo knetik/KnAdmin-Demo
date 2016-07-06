@@ -29,6 +29,9 @@
             }, {
                 state: 'rolesList',
                 icon: 'fa fa-lock'
+            },{
+                state: 'permissionList',
+                icon: 'fa fa-lock'
             }, {
                 state: 'mediaDefinitionsEdit',
                 icon: 'fa fa-sitemap'
