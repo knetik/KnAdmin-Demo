@@ -12,9 +12,10 @@
     "tests"
   ],
   "dependencies": {
-    "KnAdminCore": "git@github.com:knetikmedia/KnAdmin.git#2.5.7"
+    "KnAdminCore": "git@github.com:knetikmedia/KnAdmin.git#2.5.8"
   },
   "resolutions": {
-    "angular": "1.5.7"
+    "angular": "1.5.7",
+    "Kn-components": "0.3.13"
   }
 }
