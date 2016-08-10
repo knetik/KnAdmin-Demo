@@ -27,17 +27,28 @@
                 state: 'lookAndFeelEdit',
                 icon: 'fa fa-paint-brush'
             }, {
+                state: 'adminLogsList',
+                icon: 'fa fa-info-circle'
+            }, {
+                state: 'templateDirectory',
+                icon: 'fa fa-object-group'
+            }]
+        },{
+            name: 'Security Management',
+            icon: 'fa fa-lock',
+            sort: 2,
+            items: [{
+                state: 'clientsList',
+                icon: 'fa fa-child'
+            }, {
+                state: 'tokenList',
+                icon: 'fa fa-get-pocket'
+            }, {
                 state: 'rolesList',
-                icon: 'fa fa-lock'
+                icon: 'fa fa-child'
             },{
                 state: 'permissionList',
                 icon: 'fa fa-lock'
-            }, {
-                state: 'mediaDefinitionsEdit',
-                icon: 'fa fa-sitemap'
-            }, {
-                state: 'adminLogsList',
-                icon: 'fa fa-info-circle'
             }]
         },{
             name: 'User Management',
@@ -67,10 +78,6 @@
                 {
                     state: 'vendorsList',
                     icon: 'fa fa-briefcase'
-                },
-                {
-                    state: 'itemTemplateList',
-                    icon: 'fa fa-suitcase'
                 },
                 {
                     state: 'subscriptionsList',
