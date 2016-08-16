@@ -186,7 +186,7 @@
                 icon: 'fa fa-bar-chart'
             }]
         }, {
-            name: 'Media Management',
+            name: 'Video Management',
             icon: 'fa fa-cloud',
             sort: 11,
             items: [{
