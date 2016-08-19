@@ -14,14 +14,14 @@
 
     function getJsapiUrl () {
         let url = JSAPI_BASE_URL;
+        
         if(window.location.href.indexOf('localhost') < 0) {
             url = window.location.href
                 .replace('admin.', '');
 
             url = url.substring(0, thirdIndexOf(url, '/'));
         }
-
-        if(url[url.length] !== '/') {
+        if(url[url.length-1] !== '/') {
             url += '/';
         }
         return url;
@@ -47,3 +47,5 @@
     }
 
 })();
+
+
