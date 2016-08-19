@@ -29,19 +29,20 @@
 
     function thirdIndexOf(string, char) {
 
-        let count = -1;
+        let count = 0;
+        let index = -1;
 
         for(let i = 0; i < string.length; i++) {
             if(string[i] === char) {
-                count = i;
+                count++;
+                index = i;
             }
-
-            if(count === 2) {
+            if(count === 3) {
                 break;
             }
         }
 
-        return count;
+        return index;
 
     }
 
