@@ -56,9 +56,12 @@ the ProjcetAdmin angular module.
 
 The intention of the KnAdmin dependency is for projects to NOT change the functionality of the core admin, however; Project Admin can achieve this and SHOULD only do so if absolutely necessary. 
 
-    - Project Admins can override the $templateCache at a path to the template that you want to override. You can then update the template to meet your project's needs. If you wish to add project specific logic to the template, you can add a component inside of the view. 
+    - Project Admins can override the $templateCache at a path to the template that you want to override.
+        You can then update the template to meet your project's needs. If you wish to add project specific logic to the
+        template, you can add a component inside of the view. 
     
-    - NOTE: All templates being overrode by a projcet must be compatible with the controller/component that uses the template.
+    - NOTE: All templates being overrode by a projcet must be compatible with the controller/component that uses 
+        the template.
 
 ## License
 
