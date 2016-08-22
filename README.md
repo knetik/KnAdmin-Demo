@@ -27,6 +27,8 @@ TLDR:
         - run "gulp" 
     - Building for Production
         - run "gulp build"
+    - Run the production build locally (SHOULD only be for dev purposes)"
+        - run "gulp serve-build"
         
         
 
